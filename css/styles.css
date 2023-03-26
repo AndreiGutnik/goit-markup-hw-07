@@ -26,8 +26,8 @@ body {
   font-size: 16px;
 }
 
-body.mobile-menu-open{
-	overflow: hidden;
+body.mobile-menu-open {
+  overflow: hidden;
 }
 
 .list {
@@ -711,10 +711,7 @@ body.mobile-menu-open{
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  width: 263px;
-}
-
-@media screen and (max-width: 767px) {
+  width: 268px;
 }
 
 .filtr-button {
@@ -779,8 +776,15 @@ body.mobile-menu-open{
 }
 
 /* ------------------Works----------------- */
+.work-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
 @media screen and (max-width: 767px) {
-  .works-list {
+  .work-item {
     margin: 0 auto;
   }
   .work-item:not(:last-child) {
@@ -867,7 +871,6 @@ body.mobile-menu-open{
 .work-text {
   color: var(--primary-font-color);
 }
-*/
 
 /* ----------------Modal----------------- */
 .backdrop {
