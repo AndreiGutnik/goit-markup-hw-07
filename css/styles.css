@@ -443,7 +443,7 @@ body.mobile-menu-open{
 
 /* ---------------Features---------------- */
 .features,
-.team,
+.team-container,
 .customers {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -451,7 +451,7 @@ body.mobile-menu-open{
 
 @media (min-width: 1200px) {
   .features,
-  .team,
+  .team-container,
   .customers {
     padding-top: 120px;
     padding-bottom: 120px;
